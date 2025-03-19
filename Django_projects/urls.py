@@ -25,7 +25,6 @@ urlpatterns = [
     
     path ('', include("enochApp.urls", namespace="enochApp")),
     path ('account/', include("accountApp.urls", namespace="accountApp")),
-    path ('api-auth/', include("api.urls", namespace="api"))
 ]
 
 if settings.DEBUG:

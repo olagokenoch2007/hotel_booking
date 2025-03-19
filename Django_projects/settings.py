@@ -47,10 +47,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'enochApp',
     'accountApp',
-    'api',
-
-    # thirdparty app
-    'rest_framework'
 ]
 
 MIDDLEWARE = [
